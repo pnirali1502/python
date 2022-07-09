@@ -26,10 +26,10 @@ while True:
             print(num1,"*",num2,"=",mul(num1,num2))
         elif choice =='4':
             print(num1,"/",num2,"=",div(num1,num2))
-    next_calculation=input("lets do next calculation?(yes/no):")
-    if next_calculation == "no":
+            next_calculation=input("lets do next calculation?(yes/no):")
+            if next_calculation == "no":
                 break
-    else:
+            else:
                 print("invalid input")
 
 
